@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="particles/particles.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Alex CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>
+    <div class="cursor"></div>
+	<div class="cursor2"></div>
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove",function(e){
+            cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+    </script>
+    <header>
+        <div class="main-container">        
+            <div class="main-menu">
+                <div class="container2">
+                    <div class="rating">
+                        <input type="radio" name="clr1" style="--c:#ff9933;">        
+                        <input type="radio" name="clr1" style="--c:#ff9933;">        
+                        <input type="radio" name="clr1" style="--c:#ff9933;">        
+                        <input type="radio" name="clr1" style="--c:#ff9933;">        
+                        <input type="radio" name="clr1" style="--c:#ff9933;">              
+                    </div>
+                </div>
+                <nav class="main-menu-nav">
+                    <ul class="menu-nav">
+                        <li>
+                            <a href="#" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="&nbsp;Skills">&nbsp;Skills&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="&nbsp;Projects">&nbsp;Projects&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="&nbsp;Contacts">&nbsp;Contacts&nbsp;</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="wrapper">
+                    <input type="checkbox">
+                    <div class="tema">Change themes</div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="zone-wrapper">
+                <div class="text-zone">
+                    <h1 class="txt">Hi,<br>I'm Alex<br>Popovich</h1>
+                    <h2 class="h2">Junior Front End Developer</h2>
+                    <a href="#"><span class="but">Contact me!</span><i></i></a>
+                </div>
+                <div class="loader">
+                    <span style="--i:10" class=spanit>H</span>
+                    <span style="--i:9" class=spanit>E</span>
+                    <span style="--i:8" class=spanit>L</span>
+                    <span style="--i:7" class=spanit>L</span>
+                    <span style="--i:6" class=spanit>0</span>
+                    <span style="--i:5" class=spanit>W</span>
+                    <span style="--i:4" class=spanit>O</span>
+                    <span style="--i:3" class=spanit>R</span>
+                    <span style="--i:2" class=spanit>L</span>
+                    <span style="--i:1" class=spanit>D</span>
+                </div>
+            </div>
+                <div class="container3">
+                    <div class="ccard">
+                        <div class="lines"></div>
+                        <div class="imgbx">
+                            <img src="alexlogo.png" alt="alexphoto">
+                        </div>
+                        <div class="content">
+                            <div class="details">
+                                <h2>About me</h2>
+                                <p>I’m a first-year student of The Kosygin State University of Russia. Since childhood I have been interested in Computer Science, began to study Scratch, played a lot of games, participated in simple esports tournaments and now i’m here, in web programming. I'm very interested in this.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <section>
+                <div class="container">  
+                    <div class="card">
+                        <div class="box">
+                            <div>
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>                              
+                                        <circle cx ="70" cy="70" r="70"></circle>                              
+                                    </svg>
+                                    <div class="number">
+                                        <h2>90<span>%</span></h2>        
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">Html</div>
+                    </div>              
+                    <div class="card">
+                        <div class="box">
+                            <div>
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>                              
+                                        <circle cx ="70" cy="70" r="70"></circle>                              
+                                    </svg>
+                                    <div class="number">
+                                        <h2>75<span>%</span></h2>        
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">CSS</div>
+                    </div>              
+                    <div class="card">
+                        <div class="box">
+                            <div>
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>                              
+                                        <circle cx ="70" cy="70" r="70"></circle>                              
+                                    </svg>
+                                    <div class="number">
+                                        <h2>50<span>%</span></h2>        
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">Javascript</div>
+                    </div>
+                                
+                </div>
+            </section>
+            <div class="body2">
+                <div class="container4">
+                    <div class="card2">
+                        <div class="box2">
+                            <div class="content2">
+                                <h2>01</h2>
+                                <h3>name project</h3>
+                                
+                                <a href="#">See Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="box2">
+                            <div class="content2">
+                                <h2>02</h2>
+                                <h3>name project</h3>
+                                
+                                <a href="#">See Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="box2">
+                            <div class="content2">
+                                <h2>03</h2>
+                                <h3>name project</h3>
+
+                                <a href="#">See Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactbody">
+            <div class="contactus">
+                <div class="title">
+                    <h2>Get in Touch</h2>                    
+                </div>  
+                <div class="boxx">
+                    <div class="contact form">
+                        <h3>Send a Massage</h3>
+                        <form>
+                            <div class="formbox">
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>First Name</span>
+                                        <input type="text" placeholder="Alex">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Last Name</span>
+                                        <input type="text" placeholder="Popovich">
+                                    </div>
+                                </div>
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>Email</span>
+                                        <input type="text" placeholder="Alexpopovich@email.com">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Mobile</span>
+                                        <input type="text" placeholder="+7 987 654 3210">
+                                    </div>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <span>Message</span>
+                                        <textarea placeholder="Write your message..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    
+                    <div class="contact map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577336.7622719179!2d36.82515464184878!3d55.58074819262845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1678081216421!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="icon"><a href="#"><ion-icon name="logo-discord"></ion-icon></a></li>
+            <li><a href="#"><img src="rs_school.svg" alt="rsslogo" class="rss"></a></li>
+            <li class="icon"><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+        <p>2023 Created by Alex Popovich</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

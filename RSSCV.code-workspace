@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "RSSCV",
+			"path": "."
+		},
+		{
+			"name": "libs",
+			"path": "../Witchman/Witchman/libs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RSSCV"
+	}
+}
